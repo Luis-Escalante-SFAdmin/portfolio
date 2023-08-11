@@ -12,7 +12,6 @@ function addRecommendation() {
       element.innerHTML = "\<span\>&#8220;\</span\>" + recommendation.value + "\<span\>&#8221;\</span\>";
       // Add this element to the end of the list of recommendations
       document.getElementById("all_recommendations").appendChild(element); 
-      
       // Reset the value of the textarea
       recommendation.value = "";
     }

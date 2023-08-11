@@ -14,21 +14,38 @@
           Luis Escalante
           <div class="contact_info">
             <img src="./envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          lescalante@futuredeveloper.com
+          luisescalante0108@gmail.com
         </div>
         <div style="clear:both;"></div>
         <div class="contact_info">
-          <img src="./phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          +1 987-654-3210
-
+          <img src="./linkedin-icon.png"/>
+          <a href="https://www.linkedin.com/in/luis-escalante88" target="_blank">
+            Let's Connect!</a>   
         </div>
+          <div style="clear:both;"></div>  
+        <div class="contact_info" id="salesforce-org">    
+          <img src="./salesforce.png">
+          <a href="https://luispersonalproject-dev-ed.my.salesforce.com" target="_blank">
+            Tracker For Job Applications</a>
+        </div>    
         </div>
         <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- <a class="topmenu" href="#about-me">About Me</a> -->
           <!-- Add the links for Skills, Projects and Recommendation here -->
           <a class="topmenu" href="#skills">Skills</a>
           <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <div class="dropdown">
+            <button class="drop-button">More Cool Stuff
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="more-links">
+              <a href="#experience">Experience</a>
+              <a href="#recommendations">Comments</a>
+              <a href="./certifications.html">Certifications</a>
+              <a href="./projects.html">Projects Images</a> 
+              <a href="./resume.html">My Resume</a> 
+            </div>
+          </div>
         </div>
       </div>    
     </nav>
@@ -44,9 +61,10 @@
             Hi, I'm Luis Escalante!
           </h1>
           <p>
-            I am a Systems Administrator who is working hard to be a Front-End Software Developer.
+            I am a Salesforce Administrator who is working hard to be a Front-End Software Developer.
             I am self-taught, so the learning has been fun and challenging. 
             But everything it is really cool and exciting. Cowabunga!!
+            
           </p>
       </div>
     </section>
@@ -59,33 +77,40 @@
       <div class="all_skills">
         <div class="skill">
           <img src="./html5.png"/>
-          <h6>HTML</h6>
-          <p>2 years experience</p>
-        </div>  
+          <h6>HTML5</h6>
+          <p>Learning since November 2022</p>
+        </div>
+        
+        <div class="all_skills">
+          <div class="skill">
+            <img src="./CSS3.png"/>
+            <h6>CSS3</h6>
+            <p>Learning since November 2022</p>
+          </div>
 
         <div class="skill">
           <img src="./js.jpeg"/>
           <h6>JavaScript</h6>
-          <p>3 years experience</p>
+          <p>Learning since November 2022</p>
         </div>  
 
         <!-- Add more skills here -->  
         <div class="skill">
             <img src="./salesforce.png"/>
             <h6>Salesforce</h6>
-            <p>2 years experience</p>
+            <p>Involved in the ecosystem since 2020</p>
         </div>
 
         <div class="skill">
             <img src="./python.png"/>
             <h6>Python</h6>
-            <p> 1 year experience</p>
+            <p>Learning since November 2022</p>
         </div>
 
         <div class="skill">
             <img src="./salesforce-apex.png"/>
             <h6>Apex (Salesforce)</h6>
-            <p> Few weeks of experience</p>
+            <p>Learning since January 2023</p>
         </div>
 
       </div>
@@ -97,35 +122,61 @@
         Projects
       </h2>
       <div style="clear:both;"></div>
-
         <div id="projects-container" class="projects-container">
           <div class="project-card">
-            <h3>Emulator</h3>
+            <h3>Salesforce Implementation ☁️</h3>
             <ul>
-              <li>Developed a SNES Emulator to play some old-school and challenging video games in our computers</li>
+              <li>Performing as a solo Admin, I configured Salesforce (Sales Cloud) for a petroleum company. Where I had the opportunity to build Flows, custom Objects, fields, reports and dashboards, and importing and cleaning data using Data Export Wizard. 
+                But also, provided videos to show how users could do those tasks by themselves, and saving thos videos in the Knowledge app.</li><br>
+              <li>A second opportunity I had, was for a company focus on selling electronics, and the tasks a had to complete were pretty similr to the one mentioned before, I had the interesting and fun challenge of
+              working with Integrations, for platforms like Match My Email and Box.com. And for these companies, the users for Salesforce were around 10 people each.</li> </br>
+              <li>Created a org to track job applications where I would create records of the roles applied and created an Account for the company, but also, if I could have the name of the Recruiter and/or Hiring Manager,
+                I create a contact record and link them to the job application and to the account.</li></br>
+              <li>Currently working in a website (Experience Cloud site) where I provide workouts and also planning on providing recipes to improve our nutrition. Also, de goal for this website is to get experience on building Lightning Web Components,
+                and to work on my Apex skills. Soon link will be provided on the top menu!
+              </li></br>    
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Chatbot Motivator</h3>
+            <h3>Chatbot Motivator 🤖</h3>
             <ul>
-              <li>Developed and deployed a chatbot that will provide you motivating quotes every time you mentione that you feel sad.</li>
+              <li>Developed and deployed a chatbot that will provide you motivating quotes every time you mentione that you feel sad.</li></br>
+                <li>This app can be used (for now) in any Discord Server was built mostly for practice and for fun!
+              </li></br>
             </ul>
           </div>
           <hr>
-          <div class="project-card">
-            <h3>Fundraiser App</h3>
+        </section>
+
+          <!-- Experience -->
+    <section id="experience" class="experience">      
+      <h2>
+        Experience
+      </h2>
+      <div style="clear:both"></div>
+      <div id="experience-container" class="experience-container">    
+          <div class="experience-card">
+            <h3>Going with the Flow 🌪️</h3>
             <ul>
-              <li>Developed and deployed an app to track funds that non-profit Orgs receive in events.</li>
+              <li>Have technical support to companies that get their Flows "broken" in Salesforce.</li></br>
+              <li>Have worked with scheduled Flows and to create duplicated records.</li>
             </ul>
           </div>
-    </div>
+          <hr>
+      <div class="experience-card">
+        <h3> No More Duplicates 🤯</h3>
+        <ul>
+          <li>First, I had to work on importing a spreadsheet with more than 10,000 records, keeping in mind that I had to remove duplicated but making sure that they had all the necessary information.</li></br>
+          <li>Once having records in an org, I had the challenge of also taking care of duplicates, so, the fastest solution was to install an app from AppExchange, free, easy to use and got the solution of merging all duplicated records.</li></br>
+        </ul>
+      </div>
+  
     </section>
-    <div style="clear:both;"></div>
 
     <!-- Recommendations -->
     <section id="recommendations">
-      <h2>Recommendations</h2>
+      <h2>Comments</h2>
       <div style="clear:both;"></div>
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
@@ -157,8 +208,8 @@
     <section id="contact">
       <div class="flex_center">
         <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
+          <legend class="introduction">Leave a Comment</legend>          
+          <input type="text" placeholder="Your awesome name!"> <br/>
           <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
           <div class="flex_center">
             <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
@@ -179,7 +230,7 @@
     <div class="popup" id="popup" class="flex_center">
       <img src="./checkmark--outline.svg"/>
       <h3>You are awesome!
-         <p>Thank you for leaving a recommendation for me!</p></h3>
+         <p>Thank you for leaving a </br> recommendation for me!</p></h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>

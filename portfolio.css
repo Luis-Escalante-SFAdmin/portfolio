@@ -5,22 +5,69 @@ body {
   /* Navigation Bar */
   
   #home {
-    background-color:  #7600bc;
+    background-color:  #223e85;
     padding-bottom: 1cm;
     margin-left:-1cm;
     margin-right:-1cm;
     margin-top:-1cm;
     padding-top: 2cm;
     padding-bottom: 2cm;
-    height: 5mm;
+    height: 10mm;
    }
   
   .topmenu {
-    color: lightgray;
+    color: black;
     margin: 10px;
-    padding: 20px;
+    padding-left: 20px;
     font-size: 20px;
     text-decoration:none;
+    align-content: center;
+    position: relative;
+    bottom: -15px;
+  }
+
+  .dropdown {
+    float: right;
+    overflow: hidden;
+    padding: 13px;
+    margin-left: -100%;
+  }
+
+  .dropdown .drop-button {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(214, 226, 124);
+    padding: 2%;
+    background-color: #223e85;
+    margin: 0;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(214, 226, 124);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16px;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: rgb(214, 226, 124);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    color: white;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
   
   .topmenu:hover {
@@ -37,8 +84,12 @@ body {
   .profile_name {
     float: left;
     padding-left: 2cm;
-    color: rgb(150, 255, 150);
+    color: rgb(214, 226, 124);
     font-size: 20px;
+    align-content: center;
+    margin: 1px;
+    position: relative;
+    bottom: 40%;
   }
   
   .profile_name .contact_info {
@@ -53,10 +104,18 @@ body {
     width:25px;
     margin-right: 10px;
     float:left;
+    padding-top: 5px;
   }
 
   .profile_image {
     border-radius: 200%;
+  }
+
+  #salesforce-org {
+    margin-right: 10px;
+    padding-top: 5px;
+    float: left;
+    
   }
   
   /* Titles */
@@ -66,7 +125,7 @@ body {
     font-size: 50px;
     text-align: center;
     float: left;
-    color: #7600bc;
+    color: #223e85;
     margin: 30px;
     margin-left: 60px;
     margin-top: 40px;
@@ -100,7 +159,7 @@ body {
   #about-me h1 {
     font-size: 65px;
     margin-top: 90px;
-    color: #7600bc;
+    color: #223e85;
   }
   
   #about-me p {
@@ -122,6 +181,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
+    
   }
   
   .skill {
@@ -169,8 +229,19 @@ body {
     margin-top: 30px;
     margin-left: 60px;
   }
+
+  .experience-container {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
   
   .projects-container hr {
+    border: 1px solid lightgray;
+    width: 75%;
+    margin-left: 5cm;
+  }
+
+  .experience-container hr {
     border: 1px solid lightgray;
     width: 75%;
     margin-left: 5cm;
@@ -180,13 +251,28 @@ body {
     margin: 0 15px 15px 30px;
     padding-bottom: 5px;
   }
+
+  .experience-card {
+    margin: 0 15px 15px 30px;
+    padding-bottom: 5px;
+  }
   
   .project-card h3 {
     font-size: 25px;
     margin-left: 30px;
   }
+
+  .experience-card h3 {
+    font-size: 25px;
+    margin-left: 30px;
+  }
   
   .project-card li {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  .experience-card li {
     font-size: 20px;
     margin-left: 30px;
   }
@@ -218,7 +304,7 @@ body {
   }
   
   .recommendation span {
-    color: #7600bc;
+    color: #223e85;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -229,7 +315,7 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 100%;
-    background-color: #7600bc;
+    background-color: #223e85;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,8 +346,8 @@ body {
   
   .popup button {
     background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
+    border: 1px solid #223e85;
+    color: #223e85;
     display: block;
     border-radius: 6px;
     text-align: center;
@@ -274,8 +360,8 @@ body {
   
   .popup button:hover {
     background-color: #fff;
-    border: 2px solid #7600bc;
-    color: #7600bc;
+    border: 2px solid #223e85;
+    color: #223e85;
     display: block;
     font-weight: bolder;
     text-align: center;
@@ -306,8 +392,8 @@ body {
   
   button {
     background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
+    border: 1px solid #223e85;
+    color: #223e85;
     display: block;
     border-radius: 6px;
     text-align: center;
@@ -318,11 +404,60 @@ body {
   }
   
   button:hover {
-    background-color: #7600bc;
-    border: 1px solid #7600bc;
+    background-color: #223e85;
+    border: 1px solid #223e85;
     color: #fff;
     display: block;
     border-radius: 6px;
     text-align: center;
     cursor: pointer;
   }
+
+  a:link {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: rgb(214, 226, 124);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  /* Certifications */
+  .ibm {
+    display: block;
+    position: relative;
+    float: left;
+    top: 5px;
+  }
+
+  .sf-cert {
+    display: block;
+    position: relative;
+    float: right;
+    top: 5px;
+  }
+
+  .clicked {
+    display: block;
+    position: relative;
+    float: left;
+    left: 25px;
+  }
+
+
+  /* Projects */
