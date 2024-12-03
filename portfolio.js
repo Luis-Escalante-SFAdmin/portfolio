@@ -26,7 +26,7 @@ function addRecommendation() {
   }
 
   //Alert to let visitor now that we are still under construction
-  if(sessionStorage.getItem('alert') != false){
+  if(sessionStorage.getItem('alert') !== 'false'){
   alert("This page is still under construction, but you can check what we have so far!");
-  sessionStorage.setItem('alert', false);
+  sessionStorage.setItem('alert', 'false');
   }
