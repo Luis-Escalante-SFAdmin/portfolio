@@ -17,15 +17,16 @@ body {
   
   .topmenu {
     color: black;
+    flex: auto;
     margin: 10px;
     padding-left: 20px;
     font-size: 20px;
-    text-decoration:none;
-    align-content: center;
+    text-decoration: none;
+    align-content: right;
     position: relative;
     bottom: -15px;
   }
-
+  /*
   .dropdown {
     float: right;
     overflow: hidden;
@@ -69,6 +70,7 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+    */
   
   .topmenu:hover {
     color: white;
