@@ -30,3 +30,4 @@ function addRecommendation() {
   alert("This page is still under construction, but you can check what we have so far!");
   sessionStorage.setItem('alert', 'false');
   }
+
