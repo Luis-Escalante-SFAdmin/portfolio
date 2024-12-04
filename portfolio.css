@@ -15,6 +15,7 @@ body {
     height: 10mm;
    }
   
+   /*
   .topmenu {
     color: black;
     flex: auto;
@@ -25,7 +26,9 @@ body {
     align-content: right;
     position: relative;
     bottom: -15px;
+    float: right;
   }
+*/
   /*
   .dropdown {
     float: right;
@@ -79,8 +82,23 @@ body {
   }
   
   .topdiv {
-    float: right;
-    padding-right: 1cm;
+    display: block;
+    float: left;
+    position: relative;
+    left: -5px;
+  }
+
+  .topdiv .topmenu {
+    color: rgb(214, 226, 124);
+    flex: auto;
+    margin: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    align-content: left;
+    position: relative;
+    bottom: -10px;
+    float: left;
   }
   
   .profile_name {
@@ -150,14 +168,14 @@ body {
   /* Used in the About Me sections */
   
   .container {
-    display: flex;
+    display: inline-block;
   }
   
   /* About Me */
   
   .about-me {
     display: flex;
-    align-items: center;
+    align-items: left;
   }
   
   #about-me h1 {
@@ -177,6 +195,8 @@ body {
     height: fit-content;
     vertical-align: middle;
     margin: 5px;
+    align-items: left;
+    float: left;
   }
   
   /* Skills */
