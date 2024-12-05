@@ -306,7 +306,7 @@ body {
   .all_recommendations {
     display: flex;
     align-items: center;
-    margin-left: 1in;
+    margin-left: 3.25in;
     flex-direction: row;
     flex-flow: wrap;
     padding: 20px;
