@@ -79,6 +79,12 @@ body {
     text-decoration: underline;
   }
 
+  .topdiv {
+    position: absolute;
+    right: 5%;
+    margin: 1%;
+  }
+
   .topdiv .topmenu {
     color: rgb(214, 226, 124);
     margin: 5px;
@@ -88,7 +94,6 @@ body {
     float: right;
     display: block;
     align-content: right;
-    
   }
   
   .profile_name {
