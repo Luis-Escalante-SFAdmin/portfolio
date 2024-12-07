@@ -496,7 +496,7 @@ body {
 
   .sf-cert {
     float: left;
-    width: 33%;
+    width: 30%;
     padding: 5px;
   }
 
@@ -508,20 +508,22 @@ body {
 
   .pab-cert {
     float: left;
-    width: 33%;
+    width: 30%;
     padding: 5px;
   }
 
   .pd1-cert {
     float: left;
-    width: 32.4%;
+    width: 30%;
     padding: 5px;
   }
 
-  .salesforce::after {
+  .salesforce {
     content: "";
     clear: both;
-    display: table;
+    display: flex;
+    flex-flow: row;
+    
   }
 
   .other::after {
@@ -530,4 +532,4 @@ body {
     display: table;
   }
 
-  /* Projects */
+ 

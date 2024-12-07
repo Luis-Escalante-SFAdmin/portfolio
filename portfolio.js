@@ -15,6 +15,7 @@ function addRecommendation() {
       // Reset the value of the textarea
       recommendation.value = "";
     }
+    return recommendation.value;
   }
   
   function showPopup(bool) {
@@ -29,7 +30,4 @@ function addRecommendation() {
   /*
   if(sessionStorage.getItem('alert') !== 'false'){
   alert("This page is still under construction, but you can check what we have so far!");
-  sessionStorage.setItem('alert', 'false');
-  }
-  */
-
+  sessionStorage.setI
