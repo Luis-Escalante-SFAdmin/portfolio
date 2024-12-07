@@ -122,6 +122,26 @@ body {
     padding-top: 5px;
   }
 
+  .contact_info a {
+    font-size: 17px;
+    position: relative;
+    top: 3px;
+    font-style: normal;
+  }
+
+  .mygithub img{
+    width: 25px;
+    margin-right: 10px;
+    float: left;
+    padding-top: 5px;
+  }
+
+  .mygithub a {
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+  }
+
   .profile_image {
     border-radius: 200%;
   }
@@ -206,7 +226,12 @@ body {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    
+  }
+
+  .skills2 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
   }
   
   .skill {
