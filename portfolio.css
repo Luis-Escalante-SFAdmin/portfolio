@@ -518,6 +518,12 @@ body {
     padding: 5px;
   }
 
+  .jira {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+
   .salesforce {
     content: "";
     clear: both;
