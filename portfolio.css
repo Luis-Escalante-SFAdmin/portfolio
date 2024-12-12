@@ -538,4 +538,9 @@ body {
     display: table;
   }
 
+  .resume-link {
+    text-align: center;
+    font-size: 25px;
+  }
+
   /* Projects */
