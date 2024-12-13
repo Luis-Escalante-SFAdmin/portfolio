@@ -529,7 +529,17 @@ body {
     clear: both;
     display: flex;
     flex-flow: row;
-    
+    width: 50%;
+    float: inline-start;
+    margin: 1%;
+  }
+
+  .other {
+    width: 50%;
+    flex-flow: row;
+    display: flex;
+    float: inline-start;
+    margin: 1%;
   }
 
   .other::after {
@@ -541,6 +551,18 @@ body {
   .resume-link {
     text-align: center;
     font-size: 25px;
+  }
+
+  .resume {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .resume-file {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Projects */
